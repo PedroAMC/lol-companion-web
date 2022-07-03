@@ -1,0 +1,80 @@
+
+
+body{
+
+    background-color: #2B3964;
+    
+    
+  
+  }
+  
+  
+  #summonerInput{
+  
+    font-size: 1.9em;
+  
+  }
+  
+  #summonerInputLabel {
+    
+    font-size: 1.9em;
+    margin-right: 0.8em;
+    color: white;
+  
+  }
+  
+  #region {
+  
+    font-size: 1.5em;
+  
+  
+  }
+  
+  #regionInput {
+  
+    margin-left: 0.8em;
+    margin-right: 0.3em;
+    font-size: 1.9em;
+    color: white;
+  }
+  
+  #buttonDiv {
+  
+    margin-top: 2em;
+    
+  
+  }
+  
+  .summonerSearchButtons {
+  
+    font-size: 1.5em;
+  
+  }
+  
+  #matchButton {
+  
+    margin-left: 1em;
+  
+  
+  }
+  
+  #title {
+  
+    font-size: 3.5em;
+    color: #BECAEE;
+    margin-bottom: 1em;
+  
+  
+  
+  }
+  
+  .Home {
+  
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  
+  }
+  
+  
+  
