@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lol-companion-web/static/css/main.791c3ad8.css",
-    "main.js": "/lol-companion-web/static/js/main.f7abe6e4.js",
+    "main.js": "/lol-companion-web/static/js/main.8552fb01.js",
     "static/js/787.2c4b3e24.chunk.js": "/lol-companion-web/static/js/787.2c4b3e24.chunk.js",
     "index.html": "/lol-companion-web/index.html",
     "main.791c3ad8.css.map": "/lol-companion-web/static/css/main.791c3ad8.css.map",
-    "main.f7abe6e4.js.map": "/lol-companion-web/static/js/main.f7abe6e4.js.map",
+    "main.8552fb01.js.map": "/lol-companion-web/static/js/main.8552fb01.js.map",
     "787.2c4b3e24.chunk.js.map": "/lol-companion-web/static/js/787.2c4b3e24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.791c3ad8.css",
-    "static/js/main.f7abe6e4.js"
+    "static/js/main.8552fb01.js"
   ]
 }
