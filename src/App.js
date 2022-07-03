@@ -27,8 +27,8 @@ function App() {
    <div className='app'>
     <Router>
       <Routes>
-        <Route path="lol-companion-web/" element={<Home/>}/>
-        <Route path="lol-companion-web/match" element={<Match/>}/>
+        <Route path="/lol-companion-web/" element={<Home/>}/>
+        <Route path="/lol-companion-web/match" element={<Match/>}/>
       </Routes>
     </Router>
     
