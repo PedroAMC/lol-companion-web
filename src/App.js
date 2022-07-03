@@ -17,10 +17,10 @@ function App() {
   
   return (
    <div className='app'>
-    <Router  basename="/lol-companion">
+    <Router basename="/lol-companion-web/">
       <Routes>
-        <Route path="/lol-companion-web/" element={<Home/>}/>
-        <Route path="/lol-companion-web/match" element={<Match/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/match" element={<Match/>}/>
       </Routes>
     </Router>
     
