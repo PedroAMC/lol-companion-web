@@ -20,7 +20,8 @@ function App() {
     <Router basename="/lol-companion-web/">
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/match" element={<Match/>}/>
+        <Route path="/match/:name/:region" element={<Match/>}/>
+        <Route path="/profile/:name/:region" element={<Profile/>}/>
       </Routes>
     </Router>
     
