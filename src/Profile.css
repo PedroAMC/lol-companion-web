@@ -1,0 +1,33 @@
+
+body{
+
+    background-color: #2B3964;
+    
+    
+  
+  }
+
+
+  #playerName {
+  
+    font-size: 3.5em;
+    color: #BECAEE;
+    margin-bottom: 1em;
+  
+  
+  
+  }
+
+  .playerInfo {
+
+    color:white;
+
+  }
+
+  .profile {
+  
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  
+  }

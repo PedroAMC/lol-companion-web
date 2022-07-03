@@ -1,6 +1,6 @@
 import './Home.css';
 import {useEffect, useState} from 'react';
-import {searchSummoner} from "./requests.js"
+import {searchSummoner , verifySummoner} from "./requests.js"
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -17,23 +17,23 @@ const Home = () => {
       }
       
     const [name, setName] = useState("PAMC03")
-    const [server, setServer] = useState("EUW")
+    const [server, setServer] = useState("euw1")
 
 
     
     return (
 
-     <div className='Home'>
+     <div className='home'>
         <h1 id='title'>League of Legends Companion</h1>
         <div className='searchSummoner'>
         <label for="summonerInput" id="summonerInputLabel">Summoner Name:</label>
         <input onChange={event => setName(event.target.value)} placeholder='summoner name' id='summonerInput'/>
         <label for="region" id='regionInput'>Region:</label>
         <select onChange={event => setServer(event.target.value)} name="regions" id="region">
-            <option value="EUW">EUW</option>
-            <option value="NA">NA</option>
-            <option value="KR">KR</option>
-            <option value="CH">CH</option>
+            <option value="euw1">EUW</option>
+            <option value="na1">NA</option>
+            <option value="eun1">EUNE</option>
+            <option value="kr">KR</option>
         </select>
         </div>
         <div id='buttonDiv'>
