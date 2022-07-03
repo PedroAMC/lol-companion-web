@@ -1,5 +1,6 @@
 import './App.css';
 
+// to upload website use ---> npm run deploy
 
 
 
