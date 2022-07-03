@@ -15,25 +15,16 @@ import Match from './Match';
 
 function App() {
   
-  
-
-  useEffect(() => {
-  
-
-  }, [])
-
-
   return (
    <div className='app'>
-    <Router>
+    <Router  basename="/lol-companion">
       <Routes>
         <Route path="/lol-companion-web/" element={<Home/>}/>
         <Route path="/lol-companion-web/match" element={<Match/>}/>
       </Routes>
     </Router>
     
-    
-   
+
    </div>
   
   );
