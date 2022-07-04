@@ -20,10 +20,28 @@ body{
 
     padding-top: ;
     padding: 1em;
-    flex: 1;
+    
 
   }
 
+  .box-1{
+
+    width: 42%;
+    
+  }
+  
+  
+  .champion{
+
+    display: inline-flex;
+  }
+
+  .championIcon{
+
+
+margin-left: 2em ;
+
+  }
 
   #playerName {
   

@@ -10,7 +10,7 @@ import Match from './Match';
 
 
 
-// to upload website use ---> npm run deploy
+// to update gh-pages ---> npm run deploy
 
 
 function App() {
