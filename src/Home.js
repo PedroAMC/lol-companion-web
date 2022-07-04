@@ -24,7 +24,7 @@ const Home = () => {
     return (
 
      <div className='home'>
-        <h1 id='title'>League of Legends Companion</h1>
+        <h1 id='title'>Summoner Search</h1>
         <div className='searchSummoner'>
         <label for="summonerInput" id="summonerInputLabel">Summoner Name:</label>
         <input onChange={event => setName(event.target.value)} placeholder='summoner name' id='summonerInput'/>
