@@ -13,7 +13,7 @@ const apiKey= "api_key=" + key
 
 function Profile(){
     const { name, region } = useParams()
-    const version = "12.12.1"
+    const version = "12.11.1"
    
     const [playerData, setPlayerData] = useState({})
     const [rankInfo, setRankInfo] = useState({})
@@ -114,7 +114,7 @@ function Profile(){
                 <img id="playerIcon" width="100" height="100" src={`http://ddragon.leagueoflegends.com/cdn/${version}/img/profileicon/` + playerData.profileIconId + ".png"}></img>
                 <div className='champion'>
                 <h2 className='playerInfo'>{champion1} - Mastery {masteryInfo[0].championLevel} {masteryInfo[0].championPoints} Points</h2>
-                <img className="championIcon" width="100" height="100" src={`http://ddragon.leagueoflegends.com/cdn/${version}/img/champion/` + champion1 + ".png"}></img>
+                <img className="championIcon" width="50" height="50" src={`http://ddragon.leagueoflegends.com/cdn/${version}/img/champion/` + champion1 + ".png"}></img>
                 </div>
                 <div className='champion'>
                 <h2 className='playerInfo'>{champion2} - Mastery {masteryInfo[1].championLevel} {masteryInfo[1].championPoints} Points</h2>
