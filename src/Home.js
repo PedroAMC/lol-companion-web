@@ -40,7 +40,8 @@ const Home = () => {
         <button className='summonerSearchButtons' id='profileButton' onClick={() => {routeChangeProfile(name, server)}}>View Summoner Profile</button>
         <button className='summonerSearchButtons' id='matchButton' onClick={() => {routeChangeMatch(name, server)}}>View Summoner Match</button>
         </div>
-
+        
+        <h4 id='disclaimer'>Note: If the website isn't showing correct information, the api request limit might have been surpassed, please wait a few minutes.</h4>
      </div>
     
     );
