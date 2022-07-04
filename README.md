@@ -1,1 +1,1 @@
-League of Legends companion website developed using React.js.
+## League of Legends companion website developed using React.js.
