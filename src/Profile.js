@@ -13,7 +13,7 @@ const apiKey= "api_key=" + key
 
 function Profile(){
     const { name, region } = useParams()
-    const version = "12.11.1"
+    const version = "12.12.1"
    
     const [playerData, setPlayerData] = useState({})
     const [rankInfo, setRankInfo] = useState({})
@@ -62,7 +62,7 @@ function Profile(){
     }
 
     const getChampion = (id, id2, id3) => {
-        axios.get(`http://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`).then(function(response){
+        axios.get(`https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`).then(function(response){
             //success
             console.log(response.data) 
             //let list = JSON.parse(response.data);
