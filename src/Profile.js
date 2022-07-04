@@ -13,7 +13,7 @@ const apiKey= "api_key=" + key
 
 function Profile(){
     const { name, region } = useParams()
-
+    const version = "12.12.1"
    
     const [playerData, setPlayerData] = useState({})
     const [rankInfo, setRankInfo] = useState({})
@@ -62,7 +62,7 @@ function Profile(){
     }
 
     const getChampion = (id, id2, id3) => {
-        axios.get(`http://ddragon.leagueoflegends.com/cdn/12.12.1/data/en_US/champion.json`).then(function(response){
+        axios.get(`http://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`).then(function(response){
             //success
             console.log(response.data) 
             //let list = JSON.parse(response.data);
@@ -111,18 +111,18 @@ function Profile(){
             
             <div className='box-1'>
                 <h1 className='playerInfo'>Player Icon:</h1>
-                <img id="playerIcon" width="100" height="100" src={"http://ddragon.leagueoflegends.com/cdn/12.12.1/img/profileicon/" + playerData.profileIconId + ".png"}></img>
+                <img id="playerIcon" width="100" height="100" src={`http://ddragon.leagueoflegends.com/cdn/${version}/img/profileicon/` + playerData.profileIconId + ".png"}></img>
                 <div className='champion'>
                 <h2 className='playerInfo'>{champion1} - Mastery {masteryInfo[0].championLevel} {masteryInfo[0].championPoints} Points</h2>
-                <img className="championIcon" width="50" height="50" src={"http://ddragon.leagueoflegends.com/cdn/12.12.1/img/champion/" + champion1 + ".png"}></img>
+                <img className="championIcon" width="100" height="100" src={`http://ddragon.leagueoflegends.com/cdn/${version}/img/champion/` + champion1 + ".png"}></img>
                 </div>
                 <div className='champion'>
                 <h2 className='playerInfo'>{champion2} - Mastery {masteryInfo[1].championLevel} {masteryInfo[1].championPoints} Points</h2>
-                <img className="championIcon" width="50" height="50" src={"http://ddragon.leagueoflegends.com/cdn/12.12.1/img/champion/" + champion2 + ".png"}></img>
+                <img className="championIcon" width="50" height="50" src={`http://ddragon.leagueoflegends.com/cdn/${version}/img/champion/` + champion2 + ".png"}></img>
                 </div>  
                 <div className='champion'>
                 <h2 className='playerInfo'>{champion3} - Mastery {masteryInfo[1].championLevel} {masteryInfo[1].championPoints} Points</h2>
-                <img className="championIcon" width="50" height="50" src={"http://ddragon.leagueoflegends.com/cdn/12.12.1/img/champion/" + champion3 + ".png"}></img>
+                <img className="championIcon" width="50" height="50" src={`http://ddragon.leagueoflegends.com/cdn/${version}/img/champion/` + champion3 + ".png"}></img>
                 </div>       
                 
             </div>

@@ -38,10 +38,10 @@ const Home = () => {
         </div>
         <div id='buttonDiv'>
         <button className='summonerSearchButtons' id='profileButton' onClick={() => {routeChangeProfile(name, server)}}>View Summoner Profile</button>
-        <button className='summonerSearchButtons' id='matchButton' onClick={() => {routeChangeMatch(name, server)}}>View Summoner Match</button>
+        <button className='summonerSearchButtons' id='matchButton' onClick={() => {routeChangeMatch(name, server)}} disabled>View Summoner Match</button>
         </div>
         
-        <h4 id='disclaimer'>Note: If the website isn't showing correct information, the api request limit might have been surpassed  (100 requests every 2 minutes), please wait before trying again.</h4>
+        <h4 id='disclaimer'>Note: If the website isn't showing all of the information, the api request limit might have been surpassed  (100 requests every 2 minutes), please wait before trying again.</h4>
      </div>
     
     );
